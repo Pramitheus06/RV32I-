@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Verilog/RV32I
+valu
+Z1 !s110 1784575063
+!i10b 1
+!s100 FY?>[X1a:iT33`cZ>mYgP2
+IWolgW7Y_`Zfg6F?dDI^VB0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1784124545
+8alu.v
+Falu.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1784575063.000000
+Z5 !s107 definitions.vh|tb_rv32i_core.v|rv32i_core.v|sign_extension.v|reg.v|load_store_unit.v|instruction_memory.v|decoder.v|datamemory.v|branch_unit.v|alu.v|
+Z6 !s90 -reportprogress|300|alu.v|branch_unit.v|datamemory.v|decoder.v|instruction_memory.v|load_store_unit.v|reg.v|sign_extension.v|rv32i_core.v|tb_rv32i_core.v|
+!i113 1
+Z7 tCvgOpt 0
+vbranch_unit
+R1
+!i10b 1
+!s100 ]KhWNL7Q9KaeEU_K<hiR>2
+IheoFZ>FMB>@ZQF86mRA6f0
+R2
+R0
+w1784143281
+8branch_unit.v
+Fbranch_unit.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdata_memory
+R1
+!i10b 1
+!s100 m<]lPW;9A;Q6LATO:LnZi1
+Ij91?FN7:bM[eCGi[4X;bf2
+R2
+R0
+w1784572023
+8datamemory.v
+Fdatamemory.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vdecoder
+R1
+!i10b 1
+!s100 HGTDY^iIDlJOA^n]ojHd_0
+ISSnQ5`RDmR075?C[:O8]n1
+R2
+R0
+w1784311197
+8decoder.v
+Fdecoder.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vinstruction_memory
+R1
+!i10b 1
+!s100 c@T2ZR`R6bVNPNCC01[e10
+I9EJTmiRePifiH_MW4joTg1
+R2
+R0
+w1784041089
+8instruction_memory.v
+Finstruction_memory.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vload_store_unit
+R1
+!i10b 1
+!s100 >9G^>nlP_5N]^1I9zGLmQ2
+IP:mag0;QLoJ]igZ1_kc0[3
+R2
+R0
+w1784569308
+8load_store_unit.v
+Fload_store_unit.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vregister_file
+R1
+!i10b 1
+!s100 JSR0K?EPATOfY[GkIdF402
+IaWTIJm=MQQ;1X^lGJ[<^[3
+R2
+R0
+w1784040954
+8reg.v
+Freg.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vrv32i_core
+R1
+!i10b 1
+!s100 D03QHZfI0gzLDo;Z0hZZz0
+Ig2oDDh]^Z<zhZlkfN`7gk0
+R2
+R0
+w1784574169
+8rv32i_core.v
+Frv32i_core.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vsign_extension
+R1
+!i10b 1
+!s100 QgnUj5XL6_;XGUz>j[E>63
+IBb1mVHM89K=i[goT@I8k?2
+R2
+R0
+w1784217522
+8sign_extension.v
+Fsign_extension.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb_rv32i_core
+R1
+!i10b 1
+!s100 S6E^2YMe4P5Z0a@LOM>M22
+ILM@am96L5i]624a>;Rl:S3
+R2
+R0
+w1784575053
+8tb_rv32i_core.v
+Ftb_rv32i_core.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
