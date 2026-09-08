@@ -276,5 +276,48 @@
 `define MEM_HALFWORD       2'd1
 `define MEM_WORD           2'd2
 
+// ============================================================
+// MULTICYCLE ALU INPUT A MULTIPLEXER
+// ============================================================
+
+`define MC_ALU_SRC_A_WIDTH       2
+
+`define MC_ALU_A_PC              2'd0
+`define MC_ALU_A_INSTRUCTION_PC  2'd1
+`define MC_ALU_A_AREG            2'd2
+`define MC_ALU_A_ZERO            2'd3
+
+
+// ============================================================
+// MULTICYCLE ALU INPUT B MULTIPLEXER
+// ============================================================
+
+`define MC_ALU_SRC_B_WIDTH       2
+
+`define MC_ALU_B_BREG            2'd0
+`define MC_ALU_B_IMM             2'd1
+`define MC_ALU_B_FOUR            2'd2
+`define MC_ALU_B_ZERO            2'd3
+
+
+// ============================================================
+// MULTICYCLE WRITEBACK MULTIPLEXER
+// ============================================================
+
+`define MC_WB_SEL_WIDTH          2
+
+`define MC_WB_ALUOUT             2'd0
+`define MC_WB_MDR                2'd1
+`define MC_WB_PC_PLUS_4          2'd2
+
+
+// ============================================================
+// MULTICYCLE PC SOURCE MULTIPLEXER
+// ============================================================
+
+`define MC_PC_SRC_WIDTH          2
+
+`define MC_PC_ALU                2'd0
+`define MC_PC_ALU_MASKED         2'd1
 
 `endif

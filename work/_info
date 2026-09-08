@@ -9,10 +9,10 @@ z2
 cModel Technology
 Z0 dE:/Verilog/RV32I
 valu
-Z1 !s110 1784575063
+Z1 !s110 1788836846
 !i10b 1
 !s100 FY?>[X1a:iT33`cZ>mYgP2
-IWolgW7Y_`Zfg6F?dDI^VB0
+IVL_Bdk3YaMIcRKf0B0cCQ2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
 w1784124545
@@ -23,16 +23,17 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1784575063.000000
-Z5 !s107 definitions.vh|tb_rv32i_core.v|rv32i_core.v|sign_extension.v|reg.v|load_store_unit.v|instruction_memory.v|decoder.v|datamemory.v|branch_unit.v|alu.v|
-Z6 !s90 -reportprogress|300|alu.v|branch_unit.v|datamemory.v|decoder.v|instruction_memory.v|load_store_unit.v|reg.v|sign_extension.v|rv32i_core.v|tb_rv32i_core.v|
+Z4 !s108 1788836846.000000
+Z5 !s107 definitions.vh|tb_rv32i_multicycle_core.v|rv32i_multicycle_core.v|multicycle_controller.v|load_store_unit.v|branch_unit.v|alu.v|sign_extension.v|instruction_decoder.v|reg.v|datamemory.v|instruction_memory.v|
+Z6 !s90 -reportprogress|300|+incdir+.|instruction_memory.v|datamemory.v|reg.v|instruction_decoder.v|sign_extension.v|alu.v|branch_unit.v|load_store_unit.v|multicycle_controller.v|rv32i_multicycle_core.v|tb_rv32i_multicycle_core.v|
 !i113 1
-Z7 tCvgOpt 0
+Z7 !s92 +incdir+.
+Z8 tCvgOpt 0
 vbranch_unit
 R1
 !i10b 1
 !s100 ]KhWNL7Q9KaeEU_K<hiR>2
-IheoFZ>FMB>@ZQF86mRA6f0
+IAUeFjb;YH014KV8BL@6n83
 R2
 R0
 w1784143281
@@ -48,11 +49,12 @@ R5
 R6
 !i113 1
 R7
+R8
 vdata_memory
 R1
 !i10b 1
 !s100 m<]lPW;9A;Q6LATO:LnZi1
-Ij91?FN7:bM[eCGi[4X;bf2
+I9GlA]2O@d0R=oSP@3_L@:3
 R2
 R0
 w1784572023
@@ -68,8 +70,9 @@ R5
 R6
 !i113 1
 R7
+R8
 vdecoder
-R1
+Z9 !s110 1784575063
 !i10b 1
 !s100 HGTDY^iIDlJOA^n]ojHd_0
 ISSnQ5`RDmR075?C[:O8]n1
@@ -83,16 +86,37 @@ R3
 r1
 !s85 0
 31
+Z10 !s108 1784575063.000000
+Z11 !s107 definitions.vh|tb_rv32i_core.v|rv32i_core.v|sign_extension.v|reg.v|load_store_unit.v|instruction_memory.v|decoder.v|datamemory.v|branch_unit.v|alu.v|
+Z12 !s90 -reportprogress|300|alu.v|branch_unit.v|datamemory.v|decoder.v|instruction_memory.v|load_store_unit.v|reg.v|sign_extension.v|rv32i_core.v|tb_rv32i_core.v|
+!i113 1
+R8
+vinstruction_decoder
+R1
+!i10b 1
+!s100 0f;0>g1NboJ02gDYhT<?W3
+IdCHB:ZG>Wc3FAE[@TEmAV3
+R2
+R0
+w1786121137
+8instruction_decoder.v
+Finstruction_decoder.v
+L0 4
+R3
+r1
+!s85 0
+31
 R4
 R5
 R6
 !i113 1
 R7
+R8
 vinstruction_memory
 R1
 !i10b 1
 !s100 c@T2ZR`R6bVNPNCC01[e10
-I9EJTmiRePifiH_MW4joTg1
+I4;W7Q=]nXoOYnh8cUMNg32
 R2
 R0
 w1784041089
@@ -108,11 +132,12 @@ R5
 R6
 !i113 1
 R7
+R8
 vload_store_unit
 R1
 !i10b 1
 !s100 >9G^>nlP_5N]^1I9zGLmQ2
-IP:mag0;QLoJ]igZ1_kc0[3
+IB=5S01M_io`fQS79zam>@0
 R2
 R0
 w1784569308
@@ -128,11 +153,33 @@ R5
 R6
 !i113 1
 R7
+R8
+vmulticycle_controller
+R1
+!i10b 1
+!s100 i9E:^^NnLJEmBO08nOfXk3
+I27fMP<B@CCHP^fDI=XiGF3
+R2
+R0
+w1788803506
+8multicycle_controller.v
+Fmulticycle_controller.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8
 vregister_file
 R1
 !i10b 1
 !s100 JSR0K?EPATOfY[GkIdF402
-IaWTIJm=MQQ;1X^lGJ[<^[3
+I9UPJ9n5bL=5eKAzf1269E3
 R2
 R0
 w1784040954
@@ -148,8 +195,9 @@ R5
 R6
 !i113 1
 R7
+R8
 vrv32i_core
-R1
+R9
 !i10b 1
 !s100 D03QHZfI0gzLDo;Z0hZZz0
 Ig2oDDh]^Z<zhZlkfN`7gk0
@@ -163,16 +211,37 @@ R3
 r1
 !s85 0
 31
+R10
+R11
+R12
+!i113 1
+R8
+vrv32i_multicycle_core
+R1
+!i10b 1
+!s100 dS@nb=9>?ZDX`AeW9NlAa3
+I<Z6cW8<zEQI;L:Bbj9=dJ3
+R2
+R0
+w1788807288
+8rv32i_multicycle_core.v
+Frv32i_multicycle_core.v
+L0 3
+R3
+r1
+!s85 0
+31
 R4
 R5
 R6
 !i113 1
 R7
+R8
 vsign_extension
 R1
 !i10b 1
 !s100 QgnUj5XL6_;XGUz>j[E>63
-IBb1mVHM89K=i[goT@I8k?2
+I4JmA@hi?CekYUKh?<V]Ac0
 R2
 R0
 w1784217522
@@ -188,8 +257,30 @@ R5
 R6
 !i113 1
 R7
+R8
+vtb_multicycle_controller
+!s110 1788809338
+!i10b 1
+!s100 enTo5=hzMoBXS>JUTbVHG1
+Ic[foekfBM7Od:Vcd;n3MF3
+R2
+R0
+w1788809324
+8tb_multicycle_controller.v
+Ftb_multicycle_controller.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1788809338.000000
+!s107 definitions.vh|tb_multicycle_controller.v|multicycle_controller.v|
+!s90 -reportprogress|300|+incdir+.|multicycle_controller.v|tb_multicycle_controller.v|
+!i113 1
+R7
+R8
 vtb_rv32i_core
-R1
+R9
 !i10b 1
 !s100 S6E^2YMe4P5Z0a@LOM>M22
 ILM@am96L5i]624a>;Rl:S3
@@ -203,8 +294,29 @@ R3
 r1
 !s85 0
 31
+R10
+R11
+R12
+!i113 1
+R8
+vtb_rv32i_multicycle_core
+R1
+!i10b 1
+!s100 <AI>Ya?;L]E]W5ZBV9>ef1
+I]jZg5P[]dSLmVJ<b9To<c3
+R2
+R0
+w1788835884
+8tb_rv32i_multicycle_core.v
+Ftb_rv32i_multicycle_core.v
+L0 3
+R3
+r1
+!s85 0
+31
 R4
 R5
 R6
 !i113 1
 R7
+R8
